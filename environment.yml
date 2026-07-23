@@ -1,0 +1,23 @@
+name: aml
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  # Core data stack
+  - pandas
+  - numpy
+  - scipy
+  # Visualization
+  - matplotlib
+  - seaborn
+  - missingno
+  # Graph / network features
+  - networkx
+  # Modeling
+  - scikit-learn
+  - xgboost
+  - shap
+  # Notebook environment
+  - jupyter
+  - ipykernel
+
